@@ -8,7 +8,7 @@ function countTwos() {
     }
 }
 
-countByTwos();
+countTwos();
 
 
 //problem 2.
@@ -24,7 +24,8 @@ function removeIndex(array, indices) {
 
 let letterArray = ['a', 'b', 'c', 'd', 'e', 'f', 'g'];
 let numberIndices = [1, 5]; 
-console.log(removeByIndex(sampleArray, indices));
+console.log(removeIndex(letterArray, numberIndices));
+
 
 
 //problem 3.
@@ -59,7 +60,7 @@ function combineMatrix(arrayOne, arrayTwo) {
 let arrayOne = [1, 2, 3];
 let arrayTwo = ["a", "b", "c", "d"];
 
-console.log(createMatrix(arrayOne, arrayTwo));
+console.log(combineMatrix(arrayOne, arrayTwo));
 
 
 
